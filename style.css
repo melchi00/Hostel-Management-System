@@ -1,0 +1,122 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #50b3a2;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    background: #333;
+    color: #fff;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #e8491d;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff;
+    min-height: 400px;
+}
+
+footer {
+    background: #50b3a2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: #e8491d 3px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #50b3a2;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a089;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
